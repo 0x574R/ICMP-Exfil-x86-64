@@ -1,6 +1,6 @@
 # ICMP Exfil
 
-Data exfiltration over ICMP Echo Request, implemented as a sender in x86-64 NASM (no libc) and a receiver in Python.
+Data exfiltration over ICMP Echo Request, implemented as a sender in x86-64 NASM and a receiver in Python.
 
 The sender reads a file from disk, splits it into fixed-size chunks and transmits each chunk as the data field of an ICMP Echo Request packet. The receiver captures those packets, indexes them by Sequence Number and reassembles the original file.
 
