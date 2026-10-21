@@ -1,4 +1,4 @@
-# ICMP Exfil
+# File Exfiltration through ICMP Echo Request Data Fields
 
 ![NASM](https://img.shields.io/badge/language-NASM-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux-brightgreen)
